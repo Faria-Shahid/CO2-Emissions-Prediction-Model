@@ -33,9 +33,9 @@ Request Example
 ```bash
 {
   "engine_size": 2.5,
-  "fuel_type": "Gasoline",
+  "fuel_type": "X",
   "cylinders": 4,
-  "transmission": "Automatic"
+  "transmission": "AS5"
 }
 ```
 
