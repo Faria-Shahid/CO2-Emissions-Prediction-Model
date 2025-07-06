@@ -1,15 +1,6 @@
 This is a FastAPI-based backend for predicting CO₂ emissions using a machine learning model.  
 The API accepts vehicle input features and returns the predicted CO₂ emissions in grams per kilometer.
 
-## Project Structure
-.
-├── app/
-│ ├── main.py
-│ ├── model.pkl
-│ └── utils.py
-├── requirements.txt
-└── README.md
-
 ## Setup Instructions
 
 ### 1. Clone the Repository
