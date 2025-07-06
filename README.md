@@ -17,21 +17,27 @@ The API accepts vehicle input features and returns the predicted CO₂ emissions
 ```bash
 git clone https://github.com/Faria-Shahid/CO2-Emissions-Prediction-Model.git
 cd CO2-Emissions-Prediction-Model
+```
 
 ### 2. Set up virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 ### 3. Install Requirements
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Run the FASTAPI Server
+```bash
 uvicorn app.main:app --reload
 ```
 
-##API Usage
+## API Usage
 
-###Endpoint: POST /predict
+### Endpoint: POST /predict
 Request Example
 ```bash
 {
