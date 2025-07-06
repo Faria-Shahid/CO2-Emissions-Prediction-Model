@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ### 4. Run the FASTAPI Server
 ```bash
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 
 ## API Usage
