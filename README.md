@@ -2,6 +2,7 @@ This is a FastAPI-based backend for predicting CO₂ emissions using a machine l
 The API accepts vehicle input features and returns the predicted CO₂ emissions in grams per kilometer.
 
 ## Project Structure
+.
 ├── app/
 │ ├── main.py
 │ ├── model.pkl
@@ -26,21 +27,25 @@ pip install -r requirements.txt
 
 ### 4. Run the FASTAPI Server
 uvicorn app.main:app --reload
+```
 
 ##API Usage
 
 ###Endpoint: POST /predict
 Request Example
+```bash
 {
   "engine_size": 2.5,
   "fuel_type": "Gasoline",
   "cylinders": 4,
   "transmission": "Automatic"
 }
+```
 
 Response Example
+```bash
 {
   "predicted_co2_emission": 190.5
 }
-
+```
 
